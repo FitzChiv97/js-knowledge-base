@@ -29,6 +29,7 @@ let combinedNums = primes.reduce((acc, el) => {
 ```
 
 Key lessons about *reduce*:
+
 1. Always return the accumulator
 2. Every iteration must produce a value of the same type that the accumulator expects.
 3. Forgetting to return acc on any branch → *undefined* → runtime errors.

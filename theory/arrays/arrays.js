@@ -1,43 +1,42 @@
 // CONVERTING STRING INTO AN ARRAY(5 WAYS)
 
-// let string = "Hello World";
+let string = "Hello World";
 
-// function showArray(str) {
-//     console.log(str);
-// };
+function showArray(str) {
+    console.log(str);
+};
 
-// let str1 = string.split("");
+let str1 = string.split("");
 
-// let str2 = Array.from(string);
+let str2 = Array.from(string);
 
-// let str3 = Object.assign([], string);
+let str3 = Object.assign([], string);
 
-// let str4 = [...string];
+let str4 = [...string];
 
-// let str5 = [];
+let str5 = [];
 
-// for(let i = 0; i < string.length; i++) {
-//     str5.push(string[i]);
-// };
+for(let i = 0; i < string.length; i++) {
+    str5.push(string[i]);
+};
 
 
-
-// let monkeysCount = n => [...Array(n)].map((_, i) => i+1);
+let monkeysCount = n => [...Array(n)].map((_, i) => i+1);
 // Array(n) creates an array of length n with NO VALUES, 
 // [...Array(n)] creates an array filled with undefined, 
 // of length n.
 
 
 // REMOVE DUPLICATE ELEMENTS FROM ARRAY
-// function isIsogram(str){                      //FILTER
-//   let arr = str.toLowerCase().split('');
+function isIsogram(str){                      //FILTER
+  let arr = str.toLowerCase().split('');
 
-//   arr = arr.filter((el, idx) => {
-//     return arr.indexOf(el) === idx;
-//   })
+  arr = arr.filter((el, idx) => {
+    return arr.indexOf(el) === idx;
+  })
 
-//   return (arr.length === str.length);
-// };
+  return (arr.length === str.length);
+};
 
 // function isIsogram(str) {                      //INDEXOF 
 //   let arr = str.toLowerCase().split('');
@@ -77,9 +76,6 @@
                   
 // console.log(isIsogram(["m", "m", "o", "s", "s", "e", "o", "e"])); 
 
-//REDUCE EVERY
-
-//  SET MAP ???
 // const longest = (s1, s2) => [...new Set(s1+s2)].sort().join('');
 // longest("xyaabbbccccdefww", "xxxxyyyyabklmopq") -> "abcdefklmopqwxy"
 
@@ -96,7 +92,7 @@ let array1 = [1, 2, 3, 4, 5];
 let array2 = [...array1];
 console.log(array2);
 
-// How to Merge/Flatten an array of arrays in JavaScript ?
+// How to Merge/Flatten an array of arrays in JavaScript
 // array.flat(depth) method
 // [].concat(...array)
 

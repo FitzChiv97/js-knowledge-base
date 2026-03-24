@@ -25,4 +25,3 @@ correct-email@example.com with the email you want on commits
 git push --force --tags origin master
 
 Replace main with your branch name if different.
-
