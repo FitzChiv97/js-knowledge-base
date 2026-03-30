@@ -1,4 +1,6 @@
-//My Language Skills
+// My Language Skills
+// https://www.codewars.com/kata/5b16490986b6d336c900007d
+
 function myLanguages(results) {
   return Object.entries(results)
     .filter(lang => lang[1] >= 60)

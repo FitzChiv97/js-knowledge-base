@@ -1,4 +1,6 @@
-// Next bigger number with the same digits (4 kyu)
+// Next bigger number with the same digits
+// https://www.codewars.com/kata/55983863da40caa2c900004e
+
 function nextBigger(n) {
   let leftPart = [...String(n)];
 

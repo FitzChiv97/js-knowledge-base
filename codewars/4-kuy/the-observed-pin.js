@@ -1,4 +1,6 @@
-// The observed PIN (4 kuy)
+// The observed PIN
+// https://www.codewars.com/kata/5263c6999e0f40dee200059d
+
 function getPINs(observed) {
   let adjecentDigits = {
     '1': [1,2,4],

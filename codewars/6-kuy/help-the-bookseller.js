@@ -1,11 +1,13 @@
 // Help the bookseller !
+// https://www.codewars.com/kata/54dc6f5a224c26032800005c
+
 function stockList(books, categories) {
   if(!books.length || !categories.length) return '';
 
   let output = {};
   categories.forEach(cat => output[cat] = 0);
 
-  //better approach
+  // better approach
   for(let book of books) {
     const [code, qty] = book.split(' ');
     const category = code[0];

@@ -1,4 +1,8 @@
-//Can you get the loop?
+// Can you get the loop?
+// https://www.codewars.com/kata/52a89c2ea8ddc5547a000863
+// tag: Set
+// tag: linked lists
+
 function loop_size(node) {
   let loopedObjects = new Set();
 

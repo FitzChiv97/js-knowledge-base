@@ -1,4 +1,4 @@
-//Tidy Number (Special Numbers Series #9)
+// Tidy Number (Special Numbers Series #9)
 function tidyNumber(n){
   return !Array.from(String(n), num => Number(num))
   .some((el,id,arr) => el > arr[id+1]);

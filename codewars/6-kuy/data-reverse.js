@@ -1,4 +1,6 @@
 // Data Reverse (2 solutions)
+// https://www.codewars.com/kata/569d488d61b812a0f7000015
+
 function dataReverse(data) {
   let bytes = Array.from(Array(data.length / 8), byte => []);
 
@@ -17,4 +19,5 @@ function dataReverse(data) {
 //     console.log(bytes);
 //   }
 // }
+
 console.log(dataReverse([1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,1,0,1,0]));

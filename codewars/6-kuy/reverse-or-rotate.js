@@ -1,4 +1,6 @@
 // Reverse or rotate?
+// https://www.codewars.com/kata/56b5afb4ed1f6d5fb0000991
+
 function revrot(str, sz) {
   if (sz <= 0 || str === '') return '';
 
@@ -19,4 +21,5 @@ function revrot(str, sz) {
     return chunk.join('');
   }).join('');
 }
+
 console.log(revrot("733049910872815764", 5));

@@ -1400,3 +1400,22 @@
 // function setAlarm(employed, vacation) {
 //     return employed && !vacation;
 // }
+
+
+// function calculator(calculation) {
+//   let arr = calculation.split(' ');
+//   console.log(arr);
+//   let base = +arr[0];
+
+//   for(let i = 2; i < arr.length; i+=2) {
+//     console.log(arr[i]);
+//     if (arr[i-1] === '+') base += +arr[i];
+//     if (arr[i-1] === '-') base -= arr[i];
+//     if (arr[i-1] === '*') base *= arr[i];
+//     if (arr[i-1] === '/') base /= arr[i];
+//     console.log(base);
+//   }
+
+//   return base;
+// }
+// console.log(calculator('9.02 * 2.178 / 3.4 + 70.8796'));
